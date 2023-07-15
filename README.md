@@ -1,4 +1,7 @@
-# phone
+<div align="center">
+  <h1>UAS Pemrogaman Mobile</h1>
+</div>
+
 <br>
 <div align="left">
   <h1>Nama : Sheva Rizky Ariandi</h1>
