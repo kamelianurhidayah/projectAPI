@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    tools:context=".fragment.UpdateFragment">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon1"/>
+
+    <EditText
+        android:id="@+id/edtUpdateId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="Input ID"
+        android:inputType="number"
+        android:textSize="15sp"
+        android:textColorHint="@color/bg"
+        android:textColor="@color/bg"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_txtview"
+        android:layout_marginEnd="30dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Input Phone Name"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:textColorHint="@color/bg"
+        android:textColor="@color/bg"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_txtview"
+        android:layout_marginEnd="30dp"/>
+
+    <EditText
+        android:id="@+id/edtUpdatePrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Input Price"
+        android:inputType="number"
+        android:textSize="15sp"
+        android:textColorHint="@color/bg"
+        android:textColor="@color/bg"
+        android:paddingStart="20dp"
+        android:background="@drawable/bg_txtview"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Post"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:backgroundTint="@color/btn"/>
+
+
+
+</LinearLayout>
